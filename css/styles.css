@@ -8,7 +8,7 @@ header {
 }
 
 html {
-    color: #FFFFFF;
+    color: #000000;
     /* set text color to white */
     font-size: 18px;
     font-family: "arial", "sans-serif";
@@ -25,24 +25,35 @@ body {
 h1,
 h2 {
     font-weight: 400;
+    color: dimgrey;
 }
 
 .h1-title,
-.h2-title,
 .ul-title {
-    margin-left: 100px;
+    margin-left: 30%;
+}
+
+.h2-style {
+    margin-left: 5%;
+    border-style: solid;
+    border-color: black;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: lightgrey;
+    color: #cc1a1a;
 }
 
 a {
+    margin: 5, 0, 0, 5;
     padding: 0px 10px 0px 0px;
     /* only give some space to the right of anchors (links) */
-    color: #FFFFFF;
-    /* set anchor color to white */
+    color: #000000;
+    /* set anchor color to black */
 }
 
 p {
     width: 75%;
-    max-width: 500px;
+    color: black;
 }
 
 img {
@@ -83,7 +94,8 @@ img {
 .main-nav {
     text-transform: uppercase;
     text-decoration-color: #ff0000;
-    font-size: 150%;
+    font-size: 100%;
+    color: black;
 }
 
 .section-features {
@@ -97,10 +109,10 @@ img {
     text-align: center;
 }
 
-.bottom-logo {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+.slideshow {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
 .section-pics-copy {
@@ -108,3 +120,39 @@ img {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.news-headline {
+    margin-left: 5%;
+    text-decoration-line: underline;
+    padding: 10px, 10px;
+}
+
+.news-list {
+    max-width: 100%;
+    content: 30px;
+}
+
+#container {
+    width: 100%;
+    background-color: grey;
+    margin:auto
+}
+
+#first {
+    width: 30%;
+    float: left;
+    height: 300%;
+    background-color: lightgrey;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+    font-size: 80%;
+}
+#second {
+    width: 60%;
+    float: left;
+    height: 400px;
+    margin-right: 5%;
+}
+
