@@ -34,13 +34,14 @@ h2 {
 }
 
 .h2-style {
-    margin-left: 5%;
     border-style: solid;
     border-color: black;
     padding: 2%;
     border-radius: 5%;
     background-color: lightgrey;
     color: #cc1a1a;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 a {
@@ -52,8 +53,9 @@ a {
 }
 
 p {
-    width: 75%;
+    width: 50%;
     color: black;
+    text-align: center;
 }
 
 img {
@@ -113,6 +115,7 @@ img {
     width: 100%;
     margin-left: 10%;
     margin-right: 20%;
+    height: 80%;
 }
 
 .section-pics-copy {
@@ -125,17 +128,22 @@ img {
     margin-left: 5%;
     text-decoration-line: underline;
     padding: 10px, 10px;
+    font-size: 20px;
 }
 
 .news-list {
     max-width: 100%;
-    content: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 95%;
+    height: 80%;
 }
 
 #container {
     width: 100%;
-    background-color: grey;
-    margin:auto
+    background-color: white;
+    margin:auto;
+    height: auto;
 }
 
 #first {
@@ -144,6 +152,7 @@ img {
     height: 300%;
     background-color: lightgrey;
     margin-left: 5%;
+    margin-top: 40px;
     border-style: solid;
     border-color: black;
     border-radius: 5%;
@@ -156,3 +165,35 @@ img {
     margin-right: 5%;
 }
 
+#camerabox{
+    width: 49%;
+    float: left;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slideshow {
+    margin-top: 30px;
+}
+
+#accesoriesbox {
+    width: 51%;
+    float:right;
+}
+
+.newsrules {
+    text-align: left;
+    list-style: disc;
+    margin-left: 2%;
+    width: 80%;
+    text-indent: 5px;
+}
+
+#footer {
+    width: 100%;
+    border-style: dashed
+}
