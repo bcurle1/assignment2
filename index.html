@@ -5,6 +5,56 @@
     <meta charset="utf-8">
     <title>Finger Lakes Instrumentation</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>  
+            #first {
+            width: 30%;
+            float: left;
+            height: 300%;
+            background-color: #f5f5f5;
+            margin-left: 5%;
+            margin-top: 45px;
+            border-style: solid;
+            border-color: #000000;
+            border-radius: 5%;
+            font-size: 80%;
+            }
+        #parent {
+            display: flex;
+        }
+             #camerabox {
+            width: 49%;
+            float: left;
+            border-style: groove;
+            border-width: thin;
+            border-color: #cc1a1a;
+            background-color: #f5f5f5;
+            }
+            #accesoriesbox {
+            width: 51%;
+            float:right;
+            border-style: groove;
+            border-width: thin;
+            border-color: #cc1a1a;
+            background-color: #f5f5f5;
+        }
+            #second {
+            width: 60%;
+            float: left;
+            height: 400px;
+            margin-right: 5%;
+            }
+            .news-headline {
+            margin-left: 5%;
+            text-decoration-line: underline;
+            padding: 10px 10px;
+            font-size: 20px;
+            color: #cc1a1a;
+            }
+        .inside-links {
+            color: white;
+        }
+        </style> 
+
 </head>
 
 <body>
@@ -33,28 +83,30 @@
             </div> <br>
             <div id="second">
                 <img class="slideshow" src="images.html/nasapic1.jpg" alt="The Andromeda Galaxy" height="300">
-           </div> <hr>
+            </div>
+            <hr><br><br><br><br>
+           <div id="parent">
             <div id="camerabox">
-                <h2 class="h2-style">Cooled Cameras</h2>
-                <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/mainproline.png" alt="ProLine Cooled CCd Camera" width="150" height="122" border="0"/></a><p style= "padding-bottom: 30%">Proline</p></div>
+                <h2 class="h2-style"><a class="inside-links" href="cameras.html">Cooled Cameras</a></h2>
+                <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/mainproline.png" alt="ProLine Cooled CCd Camera" width="150" height="122"/></a><p style= "padding-bottom: 30%">Proline</p></div>
                 
-               <div style="float:left; padding:5% 0 0 5%;"><a><img src="images.html/mainmicroline.png" alt="MicroLine Cooled CCD Camera" height="116" width="120" border="0"/></a><p style="padding-top: 10%" "padding-bottom: 30%">Microline</p></div>
+               <div style="float:left; padding:5% 0 0 5%;"><a><img src="images.html/mainmicroline.png" alt="MicroLine Cooled CCD Camera" height="116" width="120"/></a><p style="padding-top: 10%; padding-bottom: 30%">Microline</p></div>
                 
-               <div style="float:left; padding:7% 0 0% 2%;"><a><img src="images.html/mainkepler.png" alt="Kepler Cooled CMOS Camera" height="105" width="114" border="0"  /></a><p style="padding-top: 11%" "padding-bottom: 30%">Kepler</p></div>
+               <div style="float:left; padding:7% 0 0% 2%;"><a><img src="images.html/mainkepler.png" alt="Kepler Cooled CMOS Camera" height="105" width="114"/></a><p style="padding-top: 11%; padding-bottom: 30%">Kepler</p></div>
             </div>
             <div id="accesoriesbox">
-                <h2 class="h2-style">Accesories</h2>
-               <div style="float:left; padding:5% 0 0 5%;"><a><img src="images.html/mainhsfw.png" alt="High Speed Filter Wheels" width="110" height="105" border="0" /></a><p>High
+                <h2 class="h2-style"><a class="inside-links">Accesories</a></h2>
+               <div style="float:left; padding:5% 0 0 5%;"><a><img src="images.html/mainhsfw.png" alt="High Speed Filter Wheels" width="110" height="105"/></a><p>High
                 Speed<br> Filter Wheels</p></div>
-               
 
 
-               <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/maincfw.png" alt="Color Filter Wheels" height="104" width="150"border="0" /></a><p>Color Filter Wheels</p></div>
+               <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/maincfw.png" alt="Color Filter Wheels" height="104" width="150"/></a><p>Color Filter Wheels</p></div>
                
 
-               <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/mainatlas.png" alt="Focusers" height="110" width="125" border="0"/></a><p>Focusers</p></div>
-               
-            </div> <hr> <br><br><br><br><br><br><br><br>
+               <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/mainatlas.png" alt="Focusers" height="110" width="125" /></a><p>Focusers</p></div>
+            </div>
+            </div> 
+                <br><br><br><br><br><br><br><br>
             
            <div id="footer">
                 <p style="width: 100%">Phone: (585) 624-3760</p>
